@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+*{
+	box-sizing: border-box;
+}
+.round{
+border-radius:10px;
+padding:5px;
+
+}
+body{
+	background-color: #19a119;
+}
+
+#space{
+	padding-left:50px;
+}
+#pad{
+	
+	padding-top:10px;
+}
+form{
+	padding-top:40px;
+	
+}
+
+a{
+	padding-left:150px;
+	text-decoration: none;
+}
+h2{
+color:green;
+text-align: center;
+}
+
+td{
+	padding:10px 10px 0px 0px;
+}
+th{
+color:black;
+}
+div{
+background-color:#add8e6;
+border:2px solid black;
+border-radius:15px;
+width:100%;
+padding-bottom: 10px;
+}

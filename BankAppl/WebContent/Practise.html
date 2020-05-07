@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#check{
+color:red;
+padding-left: 20px;
+}
+</style>
+
+   <script type="text/javascript">
+    function validate() 
+    {
+         var pw=document.form1.pw.value;
+         //document.write(pw);
+         if(pw=="" || pw == null){
+        	 //document.write(pw);
+        	 document.getElementById('check').innerHTML='should be >=8';
+      		
+      		return false;
+         }
+
+         if(pw.length<8){
+     		document.getElementById("check").innerHTML='should be >=8';
+     		
+     		return false;
+     	}
+     	else{
+     		
+     		return true;
+     	}
+           
+    }
+     </script>
+</head>
+   <body>
+     <form action="#" name="form1" onsubmit="return validate()">
+     
+  		<table>
+       	<tr><td>Pass :<input type="text" name="pw" id="pw"></td></tr>
+     	<tr><td><p id="check"></p></td></tr>
+     		<tr><td>Pass :<input type="text" name="name" id="name"></td></tr>
+     	</table>
+		<input type="submit" value="submit">
+     
+     </form>
+  
+   </body>
+</html>

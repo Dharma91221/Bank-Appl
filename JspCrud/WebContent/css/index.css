@@ -1,0 +1,72 @@
+div{
+	
+	float:left;
+}
+body{
+		background-color: #19a119;
+}
+.left{
+	height: 100%;
+	padding-top:100px;
+	width:20%;
+	text-align: center;
+	
+}
+table
+{	
+	background-color:#add8e6;
+	cellpadding:20px;
+	cellspacing:20px;
+	padding-left:100px;
+	margin-top:8%;
+	border-collapse:collapse
+}
+table,td,th
+{
+	cellpadding:20px;
+	cellspacing:20px;
+	
+	border:1px solid black;
+	/* width:70%; */
+}
+.color{
+	color: white;
+}
+div a{
+	text-align: center;
+	margin-top:250px;
+}
+h1{
+	padding-left: 100px;
+}
+/* .centre{
+width:54%;
+} */
+.right{
+	height: 100%;
+	width:79%;
+	
+}
+
+
+/* .left{
+	float:left:
+	width:33%;
+	margin-right: 2%;
+	background-color: orange;
+	text-align: center;
+}
+.centre{
+	float:left:
+	width:33%;
+	background-color: orange;
+	text-align: center;
+}
+.rigth{
+	float:left:
+	width:33%;
+	
+	background-color: orange;
+	text-align: center;
+}
+ */

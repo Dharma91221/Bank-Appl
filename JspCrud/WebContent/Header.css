@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+a{
+float: right;
+padding : 10px;
+display:inline;
+}
+h1{
+
+display:inline;
+padding-left:15px;
+}
+#logo{
+float: left;
+}
+img{
+border-radius: 5px;
+}
+body{
+	background-color: yellow;
+}

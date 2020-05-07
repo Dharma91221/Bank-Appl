@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="css/login.css" type="text/css" rel="stylesheet">
+
+</head>
+<body bgcolor="Yellow">
+<center>
+
+<form action="create" >
+<div>
+<h2>Create</h2>
+ 
+<table>
+
+<tr><th>Name </th><td><input type="text" class="round" name="name" pattern=".[A-Za-z]{2,15}" required title="2 characters min, max 15,no's not allowed"></td></tr>
+
+<tr><th>Age </th><td> <input type="number" class="round" name="age" min="18" max="60"  required title="must be >18 <60"></td></tr>
+<tr><th>salary </th><td> <input type="number" class="round" name="salary" min="500" required="required" required title="min balanace is 500"></td></tr>
+
+<tr><th  id="pad" >Designation  </th>  <td><select  class="round" id="space" name="desig">
+		<option name="desig">Clerk</option>
+		<option name="desig">Programmer</option>
+		<option name="desig">Tester</option>
+		<option name="desig">Manager</option>
+		</select>
+	</td>
+	
+</tr>
+
+</table>
+<input type="submit" class="round" value="create"> <input type="reset" class="round" value="Reset">
+</div>
+</form>
+</center>
+</body>
+</html>
